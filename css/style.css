@@ -39,7 +39,7 @@ header,.navbar {
   text-decoration: underline;
 }
 #Overview {
-  background-image: linear-gradient( rgba(73, 78, 107, 0.75),rgba(73, 78, 107, 0.75)), url('https://static.pexels.com/photos/273230/pexels-photo-273230.jpeg');
+  background-image: linear-gradient( rgba(73, 78, 107, 0.75),rgba(73, 78, 107, 0.75)), url('../img/banner-bg.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -65,7 +65,7 @@ header,.navbar {
   text-decoration: underline;
 }
 #Websites {
-  background-image: linear-gradient( rgba(152, 135, 143, 0.75),rgba(152, 135, 143, 0.75)), url('https://static.pexels.com/photos/268362/pexels-photo-268362.jpeg');
+  background-image: linear-gradient( rgba(152, 135, 143, 0.75),rgba(152, 135, 143, 0.75)), url('../img/websites-bg.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
