@@ -92,7 +92,7 @@ header,.navbar {
   color: rgba(196, 159, 102, 1);
 }
 #Contact {
-  background-image: linear-gradient( rgba(73, 78, 107, 0.75),rgba(73, 78, 107, 0.75)), url('https://static.pexels.com/photos/154/people-apple-iphone-writing.jpg');
+  background-image: linear-gradient( rgba(73, 78, 107, 0.75),rgba(73, 78, 107, 0.75)), url('../img/contact-bg.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -100,6 +100,10 @@ header,.navbar {
   min-height: 70vmin;
   color: #fff;
   padding-top: 4vmin;
+}
+
+#Contact img {
+  height: 35vmin;
 }
 footer {
   background-color: rgba(25, 34, 49, 1);
@@ -109,6 +113,7 @@ footer {
 footer div:first-child {
  margin-top: 2vmin; 
 }
+
 
 /* Classes to hide and reveal elements upon scroll: */
 /* Create own class for hiding elements because Bootstrap has 'hidden' */
