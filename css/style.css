@@ -1,0 +1,121 @@
+header,body {
+  font-family: 'Raleway', sans-serif;
+Verdana;
+}
+h1 {
+  font-size: 8vmin;
+}
+h2 {
+  font-size: 6vmin;
+}
+h3,h4 {
+  font-size: 4vmin;
+}
+body.li,p {
+  font-size: 3vmin;
+}
+#AllExp div.container div.col-xs-12{
+  max-height: 50vmin;
+}
+.container {
+  padding: 0vmin 5vmin;
+  margin: auto;
+}
+header,.navbar {
+  margin-bottom: 0vmin;
+  background-color: rgba(73, 78, 107, 1);
+  border-color: rgba(73, 78, 107, 1);
+}
+.navbar-brand {
+  font-size: 4vmin;
+}
+.navbar-brand, .navbar a, #Overview{
+  color: rgba(255, 255, 255, 1) !important;
+}
+.navbar .active a{
+  background-color: rgba(196, 159, 102, 1) !important;
+}
+#myNavbar li a:hover {
+  text-decoration: underline;
+}
+#Overview {
+  background-image: linear-gradient( rgba(73, 78, 107, 0.75),rgba(73, 78, 107, 0.75)), url('https://static.pexels.com/photos/273230/pexels-photo-273230.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  min-height: 100vmin;
+  padding-top: 20vmin;
+}
+.front-end,.back-end {
+/*   border: 1px solid black; */
+  padding: 1vmin 3vmin;
+}
+.fa {
+  margin-top: 2vmin;
+  margin-left: 2vmin;
+  color: rgba(196, 159, 102, 1);
+  font-size: 4vmin;
+}
+#Skills {
+  margin: 3vw 0;
+  min-height: 50vmin;
+}
+#Skills h4{
+  text-decoration: underline;
+}
+#Websites {
+  background-image: linear-gradient( rgba(152, 135, 143, 0.75),rgba(152, 135, 143, 0.75)), url('https://static.pexels.com/photos/268362/pexels-photo-268362.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  min-height: 100vmin;
+  color: #fff;
+  padding: 5vmin 0vmin;
+}
+#Websites div .thumbnail {
+  margin-top: 3vmin;
+}
+#AllExp {
+  margin: 4vmin 0vmin;
+}
+#AllExp .container div {
+  margin: 2vmin 0vmin;
+  height: 40vmin;
+}
+.company,.school {
+  height: 30vmin;
+  margin: auto;
+}
+#AllExp a {
+  color: rgba(196, 159, 102, 1);
+}
+#Contact {
+  background-image: linear-gradient( rgba(73, 78, 107, 0.75),rgba(73, 78, 107, 0.75)), url('https://static.pexels.com/photos/154/people-apple-iphone-writing.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  min-height: 70vmin;
+  color: #fff;
+  padding-top: 4vmin;
+}
+footer {
+  background-color: rgba(25, 34, 49, 1);
+  color: #fff;
+  height: 7vmin;
+}
+footer div:first-child {
+ margin-top: 2vmin; 
+}
+
+/* Classes to hide and reveal elements upon scroll: */
+/* Create own class for hiding elements because Bootstrap has 'hidden' */
+.hideMe {
+  opacity: 0;
+}
+.visible {
+  opacity: 1;
+/*   -webkit-animation-delay: 1s; */
+}
