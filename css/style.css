@@ -9,19 +9,25 @@ h1 {
   font-size: 8vmin;
 }
 h2 {
-  font-size: 6vmin;
+  font-size: 5vmin;
 }
-h3,h4 {
+h3 {
   font-size: 4vmin;
 }
-body.li,p {
+h4 {
   font-size: 3vmin;
+}
+body.li,p {
+  font-size: 2.5vmin;
+}
+li {
+  font-size: 2vmin;
 }
 #AllExp div.container div.col-xs-12{
   max-height: 50vmin;
 }
 .container {
-  padding: 0vmin 5vmin;
+  padding: 0vmin 10vmin;
   margin: auto;
 }
 header,.navbar {
@@ -50,8 +56,13 @@ header,.navbar {
   min-height: 100vmin;
   padding-top: 20vmin;
 }
+#Overview .container{
+  padding-top: 10vmin;
+}
+#Overview .container p {
+  padding-top: 1vmin;
+}
 .front-end,.back-end {
-/*   border: 1px solid black; */
   padding: 1vmin 3vmin;
 }
 .fa {
@@ -65,10 +76,7 @@ header,.navbar {
   min-height: 65vmin;
   padding-top: 10vmin;
 }
-#Skills .container {
-  /*margin-top: 10vmin;*/
-}
-#Skills h4{
+#Skills p:nth-child(1){
   text-decoration: underline;
 }
 #Websites {
@@ -79,10 +87,11 @@ header,.navbar {
   background-position: left;
   min-height: 100vmin;
   color: #fff;
-  padding: 10vmin 0vmin;
+  padding-top: 10vmin;
 }
 #Websites div .thumbnail {
   margin-top: 3vmin;
+  min-height: 55vmin;
 }
 #AllExp {
   margin: 4vmin 0vmin;
@@ -99,11 +108,9 @@ header,.navbar {
   color: rgba(196, 159, 102, 1);
 }
 #Experience {
-  /*margin-top: 10vmin;*/
   padding-top: 10vmin;
 }
 #Education {
-  /*margin-top: 10vmin;*/
   padding-top: 10vmin;
 }
 #Contact {
@@ -128,6 +135,9 @@ footer {
 footer div:first-child {
  margin-top: 2vmin; 
 }
+footer .fa {
+  font-size: 5vmin;
+}
 
 
 /* Classes to hide and reveal elements upon scroll: */
@@ -137,5 +147,4 @@ footer div:first-child {
 }
 .visible {
   opacity: 1;
-/*   -webkit-animation-delay: 1s; */
 }
