@@ -2,6 +2,9 @@ header,body {
   font-family: 'Raleway', sans-serif;
 Verdana;
 }
+body {
+  overflow-x: hidden !important;
+}
 h1 {
   font-size: 8vmin;
 }
@@ -32,7 +35,7 @@ header,.navbar {
 .navbar-brand, .navbar a, #Overview{
   color: rgba(255, 255, 255, 1) !important;
 }
-.navbar .active a{
+.navbar .active {
   background-color: rgba(196, 159, 102, 1) !important;
 }
 #myNavbar li a:hover {
@@ -59,7 +62,11 @@ header,.navbar {
 }
 #Skills {
   margin: 3vw 0;
-  min-height: 50vmin;
+  min-height: 65vmin;
+  padding-top: 10vmin;
+}
+#Skills .container {
+  /*margin-top: 10vmin;*/
 }
 #Skills h4{
   text-decoration: underline;
@@ -72,7 +79,7 @@ header,.navbar {
   background-position: left;
   min-height: 100vmin;
   color: #fff;
-  padding: 5vmin 0vmin;
+  padding: 10vmin 0vmin;
 }
 #Websites div .thumbnail {
   margin-top: 3vmin;
@@ -90,6 +97,14 @@ header,.navbar {
 }
 #AllExp a {
   color: rgba(196, 159, 102, 1);
+}
+#Experience {
+  /*margin-top: 10vmin;*/
+  padding-top: 10vmin;
+}
+#Education {
+  /*margin-top: 10vmin;*/
+  padding-top: 10vmin;
 }
 #Contact {
   background-image: linear-gradient( rgba(73, 78, 107, 0.75),rgba(73, 78, 107, 0.75)), url('../img/contact-bg.jpeg');
