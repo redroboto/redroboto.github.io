@@ -28,6 +28,13 @@ jQuery(document).ready(function() {
     }, 1000);
     return false;
   });
+  // back to top
+  $('#backToTop').click(function () {
+    $('body').animate({
+      scrollTop: 0
+    }, 1000);
+    return false;
+  });
 // add class active to nav a on scroll
   var scrollPos = $(document).scrollTop() + 100;
   $('#myNavbar ul li a').each(function () {
