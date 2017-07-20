@@ -88,10 +88,15 @@ header,.navbar {
   min-height: 100vmin;
   color: #fff;
   padding-top: 10vmin;
+  padding-bottom: 10vmin;
 }
 #Websites div .thumbnail {
   margin-top: 3vmin;
   min-height: 55vmin;
+}
+#Websites div .thumbnail .caption h4{
+  font-weight: bold;
+  text-decoration: underline;
 }
 #AllExp {
   margin: 4vmin 0vmin;
@@ -126,6 +131,9 @@ header,.navbar {
 
 #Contact img {
   height: 35vmin;
+}
+#Contact h2 {
+  margin-bottom: 5vmin;
 }
 footer {
   background-color: rgba(25, 34, 49, 1);
